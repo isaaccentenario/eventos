@@ -1,0 +1,54 @@
+@import "reset.css";
+
+body {
+	font-family: Berlin Sans FB,Calibri, Helvetica, Arial, sans-serif;
+}
+
+.login-box-container {
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0,0,0,0.5);
+	width: 100%;
+	max-width: 400px;
+	min-height: 280px;
+	display: block;
+	margin: 90px auto;
+}
+
+.login-box-container .container {
+	padding: 20px;
+}
+.login-box-container .container h1 {
+	font-size: 1.3em;
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+.login-form label {
+	display: block;
+	margin: 10px 0 0 0;
+}
+.login-box-container .container .form-input {
+	width: 100%;
+	display: block;
+	font-size: 1.3em;
+	padding:5px;
+	border-radius: 3px;
+	border:1px solid rgba(0,0,0,0.2);
+	margin: 4px 0 10px 0;
+	font-family:Berlin Sans FB,Calibri, Helvetica, Arial, sans-serif;
+}
+.login-box-container .container .form-submit {
+	background: #fff;
+	border:1px solid transparent;
+	cursor: pointer;
+	padding:10px 20px;
+	font-size: 1em;
+	transition: 0.3s ease-in-out;
+	border-radius: 3px;
+	font-family: Berlin Sans FB,Calibri, Helvetica, Arial, sans-serif;
+}
+.login-box-container .container .form-submit:hover {
+	transition: 0.1s ease-in-out;
+	padding-right: 120px;
+	border:1px solid rgba(0,0,0,0.2);
+	background: #f9f9f9;
+}
